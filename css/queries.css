@@ -1,0 +1,239 @@
+/* iPads to computers */
+@media only screen and (max-width: 1200px) {
+  /*-------------------- First Section: Landing-------------------- */
+  .gamer-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* iPads: small tablet to big tablet held vertically  */
+/* From 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  /*-------------------- First Section: Landing-------------------- */
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  /*------- Second Section: Grid ------------ */
+
+  .long-text {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  /*-----------Fourth Section: How it Works----------- */
+
+  .steps-box {
+    margin-top: 10px;
+  }
+
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+
+  .tag {
+    padding: 9px 0px 0px 4px;
+  }
+
+  .works-step {
+    margin-bottom: 30px;
+  }
+
+  .works-step div {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 50px;
+  }
+
+  .btn-app {
+    font-size: 200%;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+}
+
+/* Small phones to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+  /*-------------------- First Section: Landing-------------------- */
+
+  header {
+    height: 140vh;
+  }
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  .row,
+  .gamer-text-box {
+    padding: 0 4%;
+  }
+
+  .gamer-text-box {
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 20%;
+  }
+
+  .gamer-text-box .btn {
+    margin-top: 15px;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0%;
+  }
+
+  .nav-main {
+    display: none;
+  }
+
+  /*------- Second Section: Grid ------------ */
+
+  .section-features p {
+    text-align: center;
+  }
+
+  .section-features .col p {
+    font-size: 120%;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .icon-big {
+    font-size: 600%;
+  }
+
+  h1 {
+    font-size: 300%;
+  }
+  h2 {
+    font-size: 200%;
+  }
+
+  .long-text {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  /*-----------Fourth Section: How it Works----------- */
+
+  .steps-box {
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .controller {
+    display: none;
+  }
+
+  .tag {
+    padding: 9px 0px 0px 4px;
+  }
+
+  .works-step {
+    margin-bottom: 30px;
+  }
+
+  .works-step div {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  /*----------Fifth Section: Cities----------- */
+
+  .city-feature {
+    font-size: 110%;
+  }
+
+  /*----------Seventh Section: Sign-up----------- */
+
+  .monthly-header {
+    font-size: 150%;
+  }
+
+  .monthly-price {
+    text-align: center;
+  }
+
+  .signup-description {
+    font-size: 140%;
+  }
+
+  .btn-full {
+    padding-right: 0;
+  }
+
+  /*----------Eighth Section: Contact Form----------- */
+  .section-form .row {
+    margin: 0 auto;
+  }
+
+  .form-category {
+    float: left;
+    width: 30%;
+    text-align: center;
+    line-height: 100%;
+    font-size: 150%;
+  }
+
+  .form-fillbox {
+    float: right;
+    width: 70%;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .form-category:last-child {
+    display: none;
+  }
+
+  .form-submit {
+    margin: 0 auto;
+  }
+
+  #name,
+  #email,
+  #find-us,
+  #message {
+    font-size: 100%;
+  }
+
+  .section-form .btn-form {
+    justify-content: center;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480) {
+}

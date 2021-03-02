@@ -1,0 +1,588 @@
+/*--------------- All properties---------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #333333;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  color: #dadada;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/*-------------------- Header-------------------- */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url(../img/gamer.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: left;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 400%;
+  font-weight: 400;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.row h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/*-------------------- First Section: Landing-------------------- */
+
+.gamer-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 45%;
+  left: 12%;
+}
+
+.gamer-text-box h2 {
+  font-size: 200%;
+}
+
+.logo {
+  width: auto;
+  margin-top: 20px;
+  float: left;
+}
+
+/* MAIN NAV */
+
+.nav-main {
+  float: right;
+  list-style: none;
+}
+
+.nav-main li {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.nav-main li a:link,
+.nav-main li a:visited {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  padding: 10px;
+  transition: background-color 0.4s, border 0.4s;
+}
+
+.nav-main li a:hover,
+.nav-main li a:active {
+  border-bottom: 2px solid #e74c3c;
+  background-color: rgb(255, 255, 255, 0.1);
+  padding: 10px;
+}
+
+/*------- Second Section: Grid ------------ */
+
+section {
+  padding: 80px 0;
+}
+
+section h2:after {
+  display: block;
+  height: 2px;
+  background-color: #e74c3c;
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.long-text {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 40px;
+}
+
+.box {
+  padding: 1%;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.row-items {
+  margin: 20px;
+}
+
+.icon-big {
+  font-size: 300%;
+  display: block;
+  color: #e74c3c;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.within {
+  display: flex;
+  justify-content: center;
+}
+
+/*----- Third Section: Images ------------ */
+
+.section-types {
+  padding: 0;
+}
+
+.types-showcase {
+  list-style: none;
+  width: 100%;
+  overflow: hidden;
+}
+
+.types-showcase li {
+  display: block;
+  float: left;
+  width: 33%;
+}
+
+.type-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.type-photo img {
+  opacity: 0.7;
+  background-color: #000;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.4s, opacity 0.4s;
+}
+
+.type-photo img:hover {
+  opacity: 1;
+  background-color: #000;
+  transform: scale(1.04);
+}
+
+/*-----------Fourth Section: How it Works----------- */
+
+.section-steps {
+  background-color: #242424;
+}
+
+.controller {
+  width: 80%;
+  height: auto;
+  float: right;
+}
+
+.steps-box {
+  width: 50%;
+  float: right;
+}
+
+.steps-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+  margin-top: 30px;
+}
+
+.steps-box:last-child {
+  padding-left: 3%;
+  margin-top: 70px;
+}
+
+.works-step {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.works-step div {
+  color: #e74c3c;
+  border: 2px solid #e74c3c;
+  display: inline-block;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding-left: 10px;
+  float: left;
+  margin-right: 20px;
+}
+
+.tag {
+  padding: 12px 0px 0px 8px;
+}
+
+.btn-app {
+  height: 50px;
+  font-size: 300%;
+  color: #fff;
+}
+
+/*----------Fifth Section: Cities----------- */
+
+.section-cities img {
+  width: 100%;
+  height: auto;
+}
+
+.city-feature {
+  float: left;
+  width: 33%;
+  margin: auto;
+  font-size: 60%;
+}
+
+.city-feature svg {
+  margin: auto;
+}
+
+.section-cities h3 {
+  margin-top: 20px;
+}
+
+.icon-orange {
+  font-size: 120%;
+  color: #e74c3c;
+}
+
+.city-feature p {
+  font-size: 120%;
+}
+
+.twitter-link:link,
+.twitter-link:visited {
+  color: #dadada;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #333333;
+}
+
+.twitter-link:hover,
+.twitter-link:active {
+  color: #dadada;
+  border-bottom: 1px solid #dadada;
+  transition: border-bottom 0.3s;
+}
+
+/*----------Sixth Section: Customer Testimoninals----------- */
+
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url(../img/background-cont.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 100px 25px;
+}
+
+blockquote {
+  padding: 5%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+}
+
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+  text-align: center;
+}
+
+blockquote:before {
+  content: '"';
+  font-size: 200%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+cite img {
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/*----------Seventh Section: Sign-up----------- */
+
+.section-signup {
+  background-color: #242424;
+}
+
+.section-signup .row {
+  margin-top: 30px;
+}
+
+.section-signup h3 {
+  text-align: left;
+  padding-bottom: 5px;
+  font-size: 125%;
+  padding-left: 25px;
+}
+
+.monthly-price {
+  font-size: 200%;
+  padding-left: 10px;
+  color: #e74c3c;
+}
+
+.monthly-header {
+  background-color: #464646;
+  border-radius: 10px;
+  border-end-end-radius: 0px;
+  border-end-start-radius: 0px;
+  padding: 15px 0;
+  border-bottom: 1px solid #494949;
+}
+
+.signup-description {
+  background-color: #535353;
+  font-size: 80%;
+}
+
+.signup-description ul {
+  padding: 25px 25px 25px 25px;
+}
+
+.signup-description li {
+  list-style-type: none;
+  padding: 7px;
+}
+
+.signup-description ion-icon {
+  padding-right: 7px;
+}
+
+.signup-btn {
+  background-color: #464646;
+  padding: 15px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.signup-btn .btn {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-posts {
+  padding: 0 25px;
+}
+
+.signup-posts .col {
+  padding: 0 5px;
+}
+
+/*----------Eighth Section: Contact Form----------- */
+
+.section-form label {
+  font-size: 80%;
+}
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.section-form::-webkit-input-placeholder {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.section-form::-moz-placeholder {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.section-form:-ms-input-placeholder {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.section-form::-ms-input-placeholder {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.section-form::placeholder {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+#name,
+#email,
+#find-us,
+#message {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 70%;
+}
+
+.btn-form {
+  margin: 15px 0 0 35px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 70%;
+  border: 1px solid #e74c3c;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 50%;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #464646;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="checkbox"] {
+  margin: 10px;
+}
+
+*:focus {
+  outline: none;
+}
+
+/*----------Ninth Section: Footer----------- */
+
+footer {
+  background-color: #141414;
+  padding: 50px 40px;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin-right: 0px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #777;
+  font-size: 80%;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #ddd;
+}
+
+footer .btn-app {
+  font-size: 200%;
+  color: #888;
+  transition: color 0.2s;
+}
+
+footer .btn-app:hover,
+footer .btn-app:active {
+  font-size: 200%;
+  color: rgb(199, 199, 199);
+}
+
+footer p {
+  color: #777;
+  text-align: center;
+  font-size: 70%;
+  margin-top: 30px;
+}
+
+/*[[[------------------ REUSABLE ----------------]]] */
+
+/*---------- Buttons------------ */
+
+.btn:link,
+.btn:visited,
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #fff;
+  transition: background-color 0.4s, border 0.4s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type="submit"] {
+  background-color: #e74c3c;
+  border: 1px solid #e74c3c;
+  margin-right: 20px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #e74c3c;
+}
+
+.btn:hover,
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: #c0392b;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: #c0392b;
+  border: 1px solid #c0392b;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #fff;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
